@@ -14,6 +14,7 @@ def menu():
         print("2.Consultar usuario")
         print("3.Eliminar usuario")
         print("4.Salir")
+        print("5.Prueba")
         try:
             opcion=int(input("Ingrese una opcion: "))
         except ValueError:
